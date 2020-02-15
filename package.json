@@ -1,6 +1,6 @@
 {
   "name": "clock-scheduler",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Same as setTimeout and setInterval but pinned to the clock",
   "main": "cjs/index.js",
   "scripts": {
