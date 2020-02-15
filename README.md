@@ -2,8 +2,9 @@
 
 [![Build Status](https://travis-ci.com/WebReflection/clock-scheduler.svg?branch=master)](https://travis-ci.com/WebReflection/clock-scheduler) [![Coverage Status](https://coveralls.io/repos/github/WebReflection/clock-scheduler/badge.svg?branch=master)](https://coveralls.io/github/WebReflection/clock-scheduler?branch=master) ![WebReflection status](https://offline.report/status/webreflection.svg)
 
-
 Same as `setTimeout` and `setInterval` but pinned to the clock.
+
+**[Live Demo](https://codepen.io/WebReflection/pen/JjdXdyo)** - a clock that changes background when a minute changes
 
 ```js
 import Clock from 'clock-scheduler';
