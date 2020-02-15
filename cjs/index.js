@@ -70,7 +70,7 @@ module.exports = {
 
 function timer(fn, delay) {
   const repeat = this == 1;
-  const obj = {fn, delay, repeat, args: slice.call(arguments, 2)};
+  const obj = {fn, delay, repeat, args: freeze(slice.call(arguments, 2))};
   registry.set(obj, setTimeout(handler, ms(delay), obj));
   return freeze(obj);
 }

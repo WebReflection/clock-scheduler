@@ -81,7 +81,7 @@ var clockScheduler = (function (exports) {
       fn: fn,
       delay: delay,
       repeat: repeat,
-      args: slice.call(arguments, 2)
+      args: freeze(slice.call(arguments, 2))
     };
     registry.set(obj, setTimeout(handler, ms(delay), obj));
     return freeze(obj);
